@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `CIPlatform` enum in crate `built`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, CIPlatform">
+
+    <title>built::CIPlatform - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" type="text/css" href="../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc enum">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        <div class="sidebar-menu">&#9776;</div>
+        
+        <p class='location'>Enum CIPlatform</p><div class="sidebar-elems"><div class="block items"><a class="sidebar-title" href="#variants">Variants</a><div class="sidebar-links"><a href="#variant.Travis">Travis</a><a href="#variant.Circle">Circle</a><a href="#variant.GitLab">GitLab</a><a href="#variant.AppVeyor">AppVeyor</a><a href="#variant.Codeship">Codeship</a><a href="#variant.Drone">Drone</a><a href="#variant.Magnum">Magnum</a><a href="#variant.Semaphore">Semaphore</a><a href="#variant.Jenkins">Jenkins</a><a href="#variant.Bamboo">Bamboo</a><a href="#variant.TFS">TFS</a><a href="#variant.TeamCity">TeamCity</a><a href="#variant.Buildkite">Buildkite</a><a href="#variant.Hudson">Hudson</a><a href="#variant.TaskCluster">TaskCluster</a><a href="#variant.GoCD">GoCD</a><a href="#variant.BitBucket">BitBucket</a><a href="#variant.Generic">Generic</a></div><a class="sidebar-title" href="#implementations">Trait Implementations</a><div class="sidebar-links"><a href="#impl-Display">Display</a></div></div><p class='location'><a href='index.html'>built</a></p><script>window.sidebarCurrent = {name: 'CIPlatform', ty: 'enum', relpath: ''};</script><script defer src="sidebar-items.js"></script></div>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content">
+<h1 class='fqn'><span class='in-band'>Enum <a href='index.html'>built</a>::<wbr><a class="enum" href=''>CIPlatform</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a class='srclink' href='../src/built/lib.rs.html#127-164' title='goto source code'>[src]</a></span></h1>
+<pre class='rust enum'>pub enum CIPlatform {
+    Travis,
+    Circle,
+    GitLab,
+    AppVeyor,
+    Codeship,
+    Drone,
+    Magnum,
+    Semaphore,
+    Jenkins,
+    Bamboo,
+    TFS,
+    TeamCity,
+    Buildkite,
+    Hudson,
+    TaskCluster,
+    GoCD,
+    BitBucket,
+    Generic,
+}</pre><div class='docblock'><p>Various Continuous Integration platforms whose presence can be detected.</p>
+</div><h2 id='variants' class='variants small-section-header'>
+                   Variants<a href='#variants' class='anchor'></a></h2>
+<span id="variant.Travis" class="variant small-section-header"><a href="#variant.Travis" class="anchor field"></a><span id='Travis.v' class='invisible'><code>Travis</code></span></span><div class='docblock'><p><a href="https://travis-ci.org">https://travis-ci.org</a></p>
+</div><span id="variant.Circle" class="variant small-section-header"><a href="#variant.Circle" class="anchor field"></a><span id='Circle.v' class='invisible'><code>Circle</code></span></span><div class='docblock'><p><a href="https://circleci.com">https://circleci.com</a></p>
+</div><span id="variant.GitLab" class="variant small-section-header"><a href="#variant.GitLab" class="anchor field"></a><span id='GitLab.v' class='invisible'><code>GitLab</code></span></span><div class='docblock'><p><a href="https://about.gitlab.com/gitlab-ci/">https://about.gitlab.com/gitlab-ci/</a></p>
+</div><span id="variant.AppVeyor" class="variant small-section-header"><a href="#variant.AppVeyor" class="anchor field"></a><span id='AppVeyor.v' class='invisible'><code>AppVeyor</code></span></span><div class='docblock'><p><a href="https://www.appveyor.com/">https://www.appveyor.com/</a></p>
+</div><span id="variant.Codeship" class="variant small-section-header"><a href="#variant.Codeship" class="anchor field"></a><span id='Codeship.v' class='invisible'><code>Codeship</code></span></span><div class='docblock'><p><a href="https://codeship.com/">https://codeship.com/</a></p>
+</div><span id="variant.Drone" class="variant small-section-header"><a href="#variant.Drone" class="anchor field"></a><span id='Drone.v' class='invisible'><code>Drone</code></span></span><div class='docblock'><p><a href="https://github.com/drone/drone">https://github.com/drone/drone</a></p>
+</div><span id="variant.Magnum" class="variant small-section-header"><a href="#variant.Magnum" class="anchor field"></a><span id='Magnum.v' class='invisible'><code>Magnum</code></span></span><div class='docblock'><p><a href="https://magnum-ci.com/">https://magnum-ci.com/</a></p>
+</div><span id="variant.Semaphore" class="variant small-section-header"><a href="#variant.Semaphore" class="anchor field"></a><span id='Semaphore.v' class='invisible'><code>Semaphore</code></span></span><div class='docblock'><p><a href="https://semaphoreci.com/">https://semaphoreci.com/</a></p>
+</div><span id="variant.Jenkins" class="variant small-section-header"><a href="#variant.Jenkins" class="anchor field"></a><span id='Jenkins.v' class='invisible'><code>Jenkins</code></span></span><div class='docblock'><p><a href="https://jenkins.io/">https://jenkins.io/</a></p>
+</div><span id="variant.Bamboo" class="variant small-section-header"><a href="#variant.Bamboo" class="anchor field"></a><span id='Bamboo.v' class='invisible'><code>Bamboo</code></span></span><div class='docblock'><p><a href="https://www.atlassian.com/software/bamboo">https://www.atlassian.com/software/bamboo</a></p>
+</div><span id="variant.TFS" class="variant small-section-header"><a href="#variant.TFS" class="anchor field"></a><span id='TFS.v' class='invisible'><code>TFS</code></span></span><div class='docblock'><p><a href="https://www.visualstudio.com/de/tfs/">https://www.visualstudio.com/de/tfs/</a></p>
+</div><span id="variant.TeamCity" class="variant small-section-header"><a href="#variant.TeamCity" class="anchor field"></a><span id='TeamCity.v' class='invisible'><code>TeamCity</code></span></span><div class='docblock'><p><a href="https://www.jetbrains.com/teamcity/">https://www.jetbrains.com/teamcity/</a></p>
+</div><span id="variant.Buildkite" class="variant small-section-header"><a href="#variant.Buildkite" class="anchor field"></a><span id='Buildkite.v' class='invisible'><code>Buildkite</code></span></span><div class='docblock'><p><a href="https://buildkite.com/">https://buildkite.com/</a></p>
+</div><span id="variant.Hudson" class="variant small-section-header"><a href="#variant.Hudson" class="anchor field"></a><span id='Hudson.v' class='invisible'><code>Hudson</code></span></span><div class='docblock'><p><a href="http://hudson-ci.org/">http://hudson-ci.org/</a></p>
+</div><span id="variant.TaskCluster" class="variant small-section-header"><a href="#variant.TaskCluster" class="anchor field"></a><span id='TaskCluster.v' class='invisible'><code>TaskCluster</code></span></span><div class='docblock'><p><a href="https://github.com/taskcluster">https://github.com/taskcluster</a></p>
+</div><span id="variant.GoCD" class="variant small-section-header"><a href="#variant.GoCD" class="anchor field"></a><span id='GoCD.v' class='invisible'><code>GoCD</code></span></span><div class='docblock'><p><a href="https://www.gocd.io/">https://www.gocd.io/</a></p>
+</div><span id="variant.BitBucket" class="variant small-section-header"><a href="#variant.BitBucket" class="anchor field"></a><span id='BitBucket.v' class='invisible'><code>BitBucket</code></span></span><div class='docblock'><p><a href="https://bitbucket.org">https://bitbucket.org</a></p>
+</div><span id="variant.Generic" class="variant small-section-header"><a href="#variant.Generic" class="anchor field"></a><span id='Generic.v' class='invisible'><code>Generic</code></span></span><div class='docblock'><p>Unspecific</p>
+</div>
+            <h2 id='implementations' class='small-section-header'>
+              Trait Implementations<a href='#implementations' class='anchor'></a>
+            </h2>
+        <h3 id='impl-Display' class='impl'><span class='in-band'><code>impl <a class="trait" href="https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html" title="trait core::fmt::Display">Display</a> for <a class="enum" href="../built/enum.CIPlatform.html" title="enum built::CIPlatform">CIPlatform</a></code><a href='#impl-Display' class='anchor'></a></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/built/lib.rs.html#166-189' title='goto source code'>[src]</a></span></h3>
+<div class='impl-items'><h4 id='method.fmt' class="method"><span id='fmt.v' class='invisible'><code>fn <a href='https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html#tymethod.fmt' class='fnname'>fmt</a>(&amp;self, f: &amp;mut <a class="struct" href="https://doc.rust-lang.org/nightly/core/fmt/struct.Formatter.html" title="struct core::fmt::Formatter">Formatter</a>) -&gt; <a class="type" href="https://doc.rust-lang.org/nightly/core/fmt/type.Result.html" title="type core::fmt::Result">Result</a></code></span><span class='out-of-band'><div class='ghost'></div><a class='srclink' href='../src/built/lib.rs.html#167-188' title='goto source code'>[src]</a></span></h4>
+<div class='docblock'><p>Formats the value using the given formatter. <a href="https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html#tymethod.fmt">Read more</a></p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>↑</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>↓</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>↹</dt>
+                    <dd>Switch tab</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt style="width:31px;">+ / -</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../";
+        window.currentCrate = "built";
+    </script>
+    <script src="../main.js"></script>
+    <script defer src="../search-index.js"></script>
+</body>
+</html>
